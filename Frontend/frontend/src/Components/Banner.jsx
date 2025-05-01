@@ -4,11 +4,11 @@ import banner from "../../public/Banner.png"
 function Banner() {
   return (
     <>
-    <div  className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-11'>
-    <div className='w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-32'>
-    <div className='space-y-11'>
+    <div  className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'>
+    <div className='w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36'>
+    <div className='space-y-8'>
     <h1 className='text-4xl font-bold'>
-      Hello Prashant Singh,  Your welcomes here to learn something{" "}
+      Hello, Prashant Singh,  Your welcomes here to learn something{" "}
       <span className='text-red-500'>New everyday!!!</span>
     </h1>
     <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magnam distinctio fugit dignissimos suscipit mollitia doloribus, hic dolores! Odit nam at doloremque reprehenderit! Eum ut aliquam nisi sint? Vero minus voluptates ducimus nisi nulla eos at voluptatum soluta. Reprehenderit corporis consequatur quibusdam quidem ipsam officiis et praesentium aliquam sit cumque?</p>
@@ -17,9 +17,9 @@ function Banner() {
   <input type="text" className="grow" placeholder="Email" />
 </label>
     </div>
-    <button className='btn mt-6 btn-secondary'>Secondary</button>
+    <button className='btn mt-6 btn-secondary'>Get Started</button>
     </div>
-    <div className='order-1 w-full md:w-1/2'>
+    <div className='order-1 w-full mt-20 md:w-1/2'>
     <img src={banner} className="md:w-[550px] md:h-[460px] md:ml-12" alt="" />
     </div>
     </div>
